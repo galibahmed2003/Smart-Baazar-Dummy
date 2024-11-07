@@ -1,14 +1,16 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    font-size: 16px;
+    padding: 20px;
 }
 
 .container {
@@ -26,67 +28,32 @@ header {
 
 nav a {
     color: #fff;
-    text-decoration: none;
     margin: 0 15px;
+    text-decoration: none;
     font-weight: bold;
 }
 
-.hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
-    color: #fff;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+main {
+    margin-top: 20px;
 }
 
-.hero h2 {
-    font-size: 2.5rem;
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
     margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-}
-
-button {
-    background-color: #fff;
     color: #28a745;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #ddd;
-}
-
-.info-section {
-    padding: 20px 0;
-    background-color: #fff;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-.info-section img {
-    width: 100%;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.contact-section {
-    padding: 20px 0;
-    background-color: #f9f9f9;
-    text-align: center;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    margin-top: 20px;
+    padding: 10px;
     background: #333;
     color: #fff;
 }
